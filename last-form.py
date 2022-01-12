@@ -310,18 +310,17 @@ class Fullscreen_window:
 
         smsCode = str(randint(1000, 9999))#Generacja liczby losowej
         #Zawartość wiadomości SMS
-        #messageText = "Your access code is %s. Please enter this code on the touchscreen to continue." % smsCode
-        #port = serial.Serial("/dev/serial0", baudrate=9600, timeout=1)#Konfiguracja portu szeregowego
-        #port.write(b"AT+CMGF=1\r")#Włączenie trybu tekstowego na tryb SMS
-        #time.sleep(3)
-        #command = "AT+CMGS=\""+mobilenumber+"\"\n"#Rozpoczęcie wysyłania widomości, podanie numeru odbiorcy
-        #port.write(str.encode(command))
-        #time.sleep(2)
-        #port.reset_output_buffer()#Wyczyszczenie bufora
-        #time.sleep(1)
-        #port.write(str.encode(messageText))
-        #port.write(str.encode(chr(26)))#Reprezentacja w kodzie ASCII kombinacji CTRL+Z
-        smsCode='1111'
+        messageText = "Your access code is %s. Please enter this code on the touchscreen to continue." % smsCode
+        port = serial.Serial("/dev/serial0", baudrate=9600, timeout=1)#Konfiguracja portu szeregowego
+        port.write(b"AT+CMGF=1\r")#Włączenie trybu tekstowego na tryb SMS
+        time.sleep(3)
+        command = "AT+CMGS=\""+mobilenumber+"\"\n"#Rozpoczęcie wysyłania widomości, podanie numeru odbiorcy
+        port.write(str.encode(command))
+        time.sleep(2)
+        port.reset_output_buffer()#Wyczyszczenie bufora
+        time.sleep(1)
+        port.write(str.encode(messageText))
+        port.write(str.encode(chr(26)))#Reprezentacja w kodzie ASCII kombinacji CTRL+Z
         return(smsCode)
 
 
