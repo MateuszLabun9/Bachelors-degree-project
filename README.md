@@ -19,7 +19,7 @@ In this stage on touch display will be generated another numeric keyboard with l
 
 ![ProjectOperationDiagram](https://user-images.githubusercontent.com/44081987/152652160-13ef4ced-2b69-450f-80ff-d66f7f143f29.png)
 
-Project was aswell created with specially projected chest to test modules and software. Photo below shows prototype in situation when user provided all needed keys and get access. 
+In addition, prototype of project was created. It was built with wooden chest. When user get access, electomagnetic lock opens for 30 seonds.  Photo below shows prototype in situation when user provided all needed keys and get access. 
 
 ![accessGranted](https://user-images.githubusercontent.com/44081987/152652735-98f5558c-9d86-4956-a801-7d2b5cf06f5d.png)
 
