@@ -7,7 +7,7 @@ In case of entering wrong keys, system does not grant authorization, additionall
 
 
 This repository contains script used in bachelor's degree project. Main scope is to manage all modules connected to Raspberry Pi and to display user interface with Tkinter.
-User iterface is displayed on touch screen compatible with RPI. Project contains small databse in wchih all useres are saved. Structure of data base is as shown on photo below. 
+User iterface is displayed on touch screen compatible with RPI. Project contains small databse in which all useres are saved. Structure of data base is as shown on photo below. 
 
 ![database](https://user-images.githubusercontent.com/44081987/152651519-f64c4ebc-3908-4ad8-b4fe-b0e52dd3f619.png)
 
