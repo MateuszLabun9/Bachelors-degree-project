@@ -6,7 +6,7 @@ Each authorized user has its own set of authentication keys that are validated w
 In case of entering wrong keys, system does not grant authorization, additionally, each authentication attempt is recorded for later control.
 
 
-This repository contains script used in bachelor's degree project. Main scope is to manage all modules connected to Raspberry Pi and to display user interface with Tkinter.
+This repository contains script used in bachelor's degree project. Main scope is to manage all modules connected to Raspberry Pi and to display user interface projected with Tkinter library.
 User iterface is displayed on touch screen compatible with RPI. Project contains databse in which all useres are saved. Structure of data base is shown on photo below. There are two tables, access_list and access_log. First table contains list of all authorized users, second table contains history of all authorization attempts.
 
 ![database](https://user-images.githubusercontent.com/44081987/152651519-f64c4ebc-3908-4ad8-b4fe-b0e52dd3f619.png)
