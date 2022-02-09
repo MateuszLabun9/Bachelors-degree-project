@@ -9,10 +9,10 @@ In case of entering wrong keys, system does not grant authorization, additionall
 
 Main scope of this script is to manage all modules connected to Raspberry Pi and to display user interface projected with Tkinter library.
   - User interface is displayed on touch screen compatible with RPI and connected with DSI. 
-  - MFRC522 module is used to scan RFID tokens and connect to Raspberry PI throught SPI interface. 
+  - MFRC522 module is used to scan RFID tokens and connect to Raspberry PI through SPI interface. 
   - SIM800L is used to send one-time codes as a SMS message. UART interface and AT commands are used for communication between module and RPI.  
 
-Project contains databse in which all useres are saved. Structure of data base is shown on photo below. There are two tables, access_list and access_log. First table contains list of all authorized users, second table contains history of all authorization attempts.
+Project contains database in which all users are saved. Structure of database is shown on photo below. There are two tables, access_list and access_log. First table contains list of all authorized users, second table contains history of all authorization attempts.
 
 ![database](https://user-images.githubusercontent.com/44081987/152651519-f64c4ebc-3908-4ad8-b4fe-b0e52dd3f619.png)
 
@@ -29,14 +29,14 @@ In this stage on touch display will be generated another numeric keyboard with l
 
 # Created prototype
 
-In addition, prototype of project was created. It was built with wooden chest. When user get access, electomagnetic lock opens for 30 seonds.  Photo below shows prototype in situation when user provided all needed keys and get access. 
+In addition, prototype of project was created. It was built with wooden chest. When user get access, electromagnetic lock opens for 30 seonds.  Photo below shows prototype in situation when user provided all needed keys and get access. 
 
 ![accessGranted](https://user-images.githubusercontent.com/44081987/152652735-98f5558c-9d86-4956-a801-7d2b5cf06f5d.png)
 
 
 # Error detection 
 
-In case of providing incorrect data like providing unathorised data, on screen will be displayed suitable information
+In case of providing incorrect data like providing unauthorized data, on screen will be displayed suitable information
 
 If scanned RFID tag is not connected to any authorized person saved in database, on screen will be displayed this information: 
 
