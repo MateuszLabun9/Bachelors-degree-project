@@ -28,3 +28,9 @@ In addition, prototype of project was created. It was built with wooden chest. W
 
 ![accessGranted](https://user-images.githubusercontent.com/44081987/152652735-98f5558c-9d86-4956-a801-7d2b5cf06f5d.png)
 
+
+# Error detection 
+
+In case of providing incorrect data like providing unathorised data, on screen will be displayed suitable information
+
+
