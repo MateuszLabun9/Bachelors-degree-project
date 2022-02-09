@@ -7,12 +7,17 @@ In case of entering wrong keys, system does not grant authorization, additionall
 
 # Project structure
 
-This repository contains script used in bachelor's degree project. Main scope is to manage all modules connected to Raspberry Pi and to display user interface projected with Tkinter library.
-User iterface is displayed on touch screen compatible with RPI. Project contains databse in which all useres are saved. Structure of data base is shown on photo below. There are two tables, access_list and access_log. First table contains list of all authorized users, second table contains history of all authorization attempts.
+Main scope of this script is to manage all modules connected to Raspberry Pi and to display user interface projected with Tkinter library.
+  - User interface is displayed on touch screen compatible with RPI and connected with DSI. 
+  - MFRC522 module is used to scan RFID tokens and connect to Raspberry PI throught SPI interface. 
+  - SIM800L is used to send one-time codes as a SMS message. UART interface and AT commands are used for communication between module and RPI.  
+
+Project contains databse in which all useres are saved. Structure of data base is shown on photo below. There are two tables, access_list and access_log. First table contains list of all authorized users, second table contains history of all authorization attempts.
 
 ![database](https://user-images.githubusercontent.com/44081987/152651519-f64c4ebc-3908-4ad8-b4fe-b0e52dd3f619.png)
 
 Additionally, user pin code is saved in database as a result of hash function in order to secure most vulnerable data. 
+
 
 # User interface
 
