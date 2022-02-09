@@ -33,4 +33,21 @@ In addition, prototype of project was created. It was built with wooden chest. W
 
 In case of providing incorrect data like providing unathorised data, on screen will be displayed suitable information
 
+If scanned RFID tag is not connected to any authorized person saved in database, on screen will be displayed this information: 
+
+![image](https://user-images.githubusercontent.com/44081987/153273935-869a64a6-cb96-42fc-b504-ae4295ce09b9.png)
+
+If entered pin is incorrect on screen will be displayed this: 
+
+![image](https://user-images.githubusercontent.com/44081987/153274093-cf86b1b2-2347-4dd1-8599-e8485b392a61.png)
+
+Last error message will be displayed if user provide incorrect SMS code, in this situation: 
+
+![image](https://user-images.githubusercontent.com/44081987/153274445-a4fe150a-55ba-49b5-8104-d931b45e41b3.png)
+
+When error message occurs, system waits 5 seconds while displaying this information, after this time, system returns to main page
+and waits for rescan of RFID token. 
+
+
+
 
